@@ -2,4 +2,4 @@
 final_year_project
 developed by @team pheonix .
 
-mali branch
+main branch
