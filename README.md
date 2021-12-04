@@ -5,3 +5,5 @@ developed by @team pheonix .
 dikshant mali added branch
 
 pritesh suthar added branch
+developed by dikshant mali
+developed by pritsh kumar
