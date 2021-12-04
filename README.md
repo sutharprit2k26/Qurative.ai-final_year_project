@@ -1,4 +1,4 @@
 # Qurative.ai
 final_year_project
-developed by dikshant .
+developed by dikshant mali.
 
