@@ -6,4 +6,4 @@ dikshant mali added branch
 
 pritesh suthar added branch
 developed by dikshant mali
-developed by pritsh kumar
+developed by prietsh kumar
