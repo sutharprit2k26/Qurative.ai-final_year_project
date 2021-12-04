@@ -1,3 +1,3 @@
 # Qurative.ai
 final_year_project
-@team pheonix
+developed by @team pheonix .
