@@ -1,3 +1,3 @@
 # Qurative.ai
 final_year_project
-developed by chandan
+developed by Team Pheonix
