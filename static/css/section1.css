@@ -1,0 +1,57 @@
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: rgba(10, 25, 47, 1);
+}
+.neonText {
+    font-size: 26px;
+  
+  animation: flicker 1.5s infinite alternate;
+  color: rgb(255, 255, 255);
+}
+/* Flickering animation */
+@keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #0fa,
+      0 0 80px #0fa,
+      0 0 90px #0fa,
+      0 0 100px #0fa,
+      0 0 150px #0fa;
+  
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
+
+
+
+.Section1_nav{
+
+    background-color: rgba(10, 25, 47, 1);
+    border: transparent;
+    margin: 0;
+}
+
+nav li{
+    font-size: 20px;
+}
+
+.btn{
+    border: 1px solid #64ffda;
+    color: #64ffda;
+    background-color: rgba(10, 25, 47, 1);
+    padding: 20px;
+}
+.btn:hover{
+    border: 1px solid #64ffda;
+    color: #64ffda;
+    background-color: rgba(32, 88, 91, 0.5);
+}
