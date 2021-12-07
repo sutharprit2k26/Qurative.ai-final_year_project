@@ -5,9 +5,15 @@ body{
 .section2 {
 color: aliceblue;
 padding-top: 80px;
-padding-bottom: 80px;;
+padding-bottom: 80px;
 }
 
+.section2a{
+    background-color: azure;
+
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
 
 /* flip card start */
 
