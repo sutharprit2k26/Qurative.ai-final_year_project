@@ -1,11 +1,13 @@
 body{
+    cursor: crosshair;
     max-width: 100%;
     overflow-x: hidden;
     background-color: rgba(10, 25, 47, 1);
 }
 .neonText {
     font-size: 26px;
-  
+    cursor: not-allowed;
+  user-select: none;
   animation: flicker 1.5s infinite alternate;
   color: rgb(255, 255, 255);
 }
@@ -44,6 +46,7 @@ nav li{
     font-size: 20px;
 }
 
+
 .btn{
     border: 1px solid #64ffda;
     color: #64ffda;
@@ -55,3 +58,4 @@ nav li{
     color: #64ffda;
     background-color: rgba(32, 88, 91, 0.5);
 }
+
