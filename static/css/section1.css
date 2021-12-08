@@ -1,5 +1,7 @@
-body{
+html{
     cursor: crosshair;
+}
+body{
     max-width: 100%;
     overflow-x: hidden;
     background-color: rgba(10, 25, 47, 1);
@@ -59,3 +61,52 @@ nav li{
     background-color: rgba(32, 88, 91, 0.5);
 }
 
+.footer-bottom {
+    padding: 40px 0 30px;
+    border-top: 1px solid #666;
+    background: #1e1e1e;
+}
+.copyright-text p {
+    color: #ccc;
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+.social-link li {
+    display: inline-block;
+    margin: 0 5px;
+}
+/* .social-link li a {
+    color: #ccc;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    transition: .5s;
+} */
+.fa.fa-facebook , 
+.fa.fa-dropbox, 
+.fa.fa-flickr , 
+.fa.fa-github , 
+.fa.fa-linkedin ,
+.fa.fa-tumblr ,
+.fa.fa-google-plus , 
+.fa.fa-tumblr {
+	color: #808080;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.fa.fa-facebook:hover, 
+.fa.fa-dropbox:hover,
+.fa.fa-flickr:hover,
+.fa.fa-github:hover, 
+.fa.fa-linkedin:hover,
+.fa,fa-tumblr:hover,
+.fa.fa-google-plus:hover, 
+.fa.fa-tumblr:hover {
+	color: #64ffda;
+}
