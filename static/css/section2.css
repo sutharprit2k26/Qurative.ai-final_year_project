@@ -49,6 +49,8 @@ color: aliceblue;
 .section2a{
     background-color: azure;
     padding-bottom: 80px;
+    
+    margin-top: -100px;
 
 }
 
@@ -58,7 +60,7 @@ color: aliceblue;
 .flip-card {
     background-color: transparent;
     width: 400px;
-    height: 350px;
+    height: 330px;
     border-radius: 60px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
