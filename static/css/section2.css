@@ -87,7 +87,8 @@ color: aliceblue;
   }
  
   .flip-card-back{
-    background-color: #66FFDA;
+    background-color: rgba(10, 25, 47, 1);
+    color: salmon;
   }
   /* Position the front and back side */
   .flip-card-front, .flip-card-back {
