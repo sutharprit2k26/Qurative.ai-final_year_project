@@ -8,10 +8,10 @@
     <!-- css -->
     <link rel="stylesheet" href="/static/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/css/section1.css">
-    
+
     <link rel="stylesheet" href="/static/css/section2.css">
     <link rel="stylesheet" href="/static/css/form.css">
-    
+
     <link rel="stylesheet" href="/static/css/parallax.css">
     <link rel="stylesheet" href="/static/css/maincard.css">
     <!--online fontawsome css -->
@@ -35,15 +35,20 @@
 
                 <ul class="nav navbar-nav navbar-right">
 
-                    <li title="about us"><a href="#"><span  style="margin-right: 6px;" class=" glyphicon glyphicon-envelope"></span></a></li>
-                    <li title="FAQ"><a href="#"><span  style="margin-right: 6px;" class="glyphicon glyphicon-question-sign"></span></a></li>
- 
-                    <li title="contactus"><a href="#"><span  style="margin-right: 6px;" class="glyphicon glyphicon-phone-alt"></span></a></li>
-                    <li  title="dev team"><a href="#"><span style="margin-right: 6px;" class="glyphicon glyphicon-education"></span></a></li>
-                    
+                    <li title="about us"><a href="#"><span style="margin-right: 6px;"
+                                class=" glyphicon glyphicon-envelope"></span></a></li>
+                    <li title="FAQ"><a href="#"><span style="margin-right: 6px;"
+                                class="glyphicon glyphicon-question-sign"></span></a></li>
+
+                    <li title="contactus"><a href="#"><span style="margin-right: 6px;"
+                                class="glyphicon glyphicon-phone-alt"></span></a></li>
+                    <li title="dev team"><a href="#"><span style="margin-right: 6px;"
+                                class="glyphicon glyphicon-education"></span></a></li>
+
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                            aria-expanded="false">Virtual Lab<span style="margin-left: 8px;" class="glyphicon glyphicon-chevron-down"></span></a>
+                            aria-expanded="false">Virtual Lab<span style="margin-left: 8px;"
+                                class="glyphicon glyphicon-chevron-down"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Upload Chest X-ray</a></li>
                             <li><a href="#">Guide to use</a></li>
@@ -61,20 +66,20 @@
     <div class="container section1">
         <div class="row">
             <div class="col-sm-5">
-                <img class="img-responsive" src="/static/images/undraw_medical_care_movn (1).svg" >
+                <img class="img-responsive" src="/static/images/undraw_medical_care_movn (1).svg">
             </div>
 
             <div class="col-sm-5 col-sm-offset-2" style=" padding: 30px;">
-             
-                    <div class="maincard">
-                      <img  src="/static/images/a.png" alt="Thumbnail" class="img-responsive thumbnail">
-                      <div class="maincontent">   
-                <!-- <button type="button" class="btn">Upload </button> -->
-                      </div>
-                      <br><br>
-                      <input style="margin-left: 40px;" type="button" class="form-button" value="Upload"> 
+
+                <div class="maincard tilt">
+                    <img src="/static/images/a.png" alt="Thumbnail" class="img-responsive thumbnail">
+                    <div class="maincontent">
+                        <!-- <button type="button" class="btn">Upload </button> -->
                     </div>
-                  
+                    <br><br>
+                    <input style="margin-left: 40px;" type="button" class="form-button" value="Upload">
+                </div>
+
 
 
             </div>
@@ -98,7 +103,7 @@
                                 <img src="/static/images/s2aa.svg" alt="Avatar" style="width:400px;height:350px;">
                             </div>
                             <div class="flip-card-back flip-card-back-d1">
-                                
+
                                 <h1>Get Vaccinated</h1>
                                 <!-- <p>Architect & Engineer</p>
                         <p>We love that guy</p> -->
@@ -258,15 +263,15 @@
                         <li>
                             <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
                         </li>
-                        
-                        
+
+
                         <li>
                             <a href="#"><i class="fa fa-github fa-2x"></i></a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
                         </li>
-                     
+
                         <li>
                             <a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
                         </li>
@@ -280,5 +285,28 @@
 <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
 <script src="/static/js/bootstrap.min.js"></script>
 
+<!-- tilt card script -->
+<script>
+    const tilt = document.querySelectorAll(".tilt");
+
+    VanillaTilt.init(tilt, {
+        reverse: false,
+        max: 12,
+        speed: 1000,
+        scale: 1.05,
+        glare: false,
+        reset: true,
+        perspective: 500,
+        transition: true,
+        "max-glare": 0.25,
+        "glare-prerender": false,
+        gyroscope: true,
+        gyroscopeMinAngleX: -30,
+        gyroscopeMaxAngleX: 30,
+        gyroscopeMinAngleY: -30,
+        gyroscopeMaxAngleY: 30
+    });
+
+</script>
 
 </html>
