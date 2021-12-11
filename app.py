@@ -10,5 +10,9 @@ def index():
     return render_template('index.html')
 
 
+@app.route('/faq')
+def index():
+    return render_template('faq.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
