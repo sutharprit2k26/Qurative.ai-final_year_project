@@ -11,7 +11,7 @@ def index():
 
 
 @app.route('/faq')
-def index():
+def faq():
     return render_template('faq.html')
 
 if __name__ == '__main__':
