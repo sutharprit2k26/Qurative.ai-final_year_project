@@ -15,8 +15,8 @@ background-size: cover;
 .mynav{
     height: 50px;
     width: 100%;
-    background-color: black;
-    color: seagreen;
+    background-color:rgba(10, 25, 47, 1);
+    color: #64ffda;
     font-weight: bolder;
     font-size: 18px;
     padding:13px;
