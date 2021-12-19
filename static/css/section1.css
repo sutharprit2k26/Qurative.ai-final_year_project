@@ -8,12 +8,8 @@ body {
     background-color: rgba(10, 25, 47, 1);
 }
 
-
-
-
-
 .neonText {
-    font-size: 26px;
+    font-size: 22px;
     cursor: not-allowed;
     user-select: none;
     animation: flicker 1.5s infinite alternate;
@@ -42,8 +38,6 @@ body {
     }
 }
 
-
-
 .Section1_nav {
 
     background-color: rgba(10, 25, 47, 1);
@@ -52,9 +46,8 @@ body {
 }
 
 nav li {
-    font-size: 20px;
+    font-size: 15px;
 }
-
 
 .btn {
     border: 1px solid #64ffda;
@@ -98,6 +91,7 @@ nav li {
     font-size: 14px;
     transition: .5s;
 } */
+
 .fa.fa-facebook,
 .fa.fa-dropbox,
 .fa.fa-flickr,
@@ -121,7 +115,6 @@ nav li {
 .fa.fa-tumblr:hover {
     color: #64ffda;
 }
-
 
 .part1 {
     position: relative;
