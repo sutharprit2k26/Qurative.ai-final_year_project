@@ -15,6 +15,10 @@ def faq():
     return render_template('faq.html')
 
 
+@app.route('/aboutus')
+def About():
+    return render_template('aboutus.html')
+
 
 @app.route('/dev')
 def dev():
